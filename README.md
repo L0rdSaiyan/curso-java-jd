@@ -1,18 +1,14 @@
-## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+1) Faça um Programa que mostre a mensagem "Alo mundo" na tela.
 
-## Folder Structure
+2) Faça um Programa que peça um número e então mostre a mensagem "O número informado foi [número]"
 
-The workspace contains two folders by default, where:
+3) Faça um Programa que peça dois números e imprima a soma.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+4) Faça um Programa que peça as 4 notas bimestrais e mostre a média.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+5) Faça um Programa que peça um número e então mostre o antecessor e o sucessor deste.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+6) Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês.
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+7) Faça um programa que peça um nome e mostre a mensagem "Boa noite [nome]"
