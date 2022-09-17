@@ -9,6 +9,7 @@ public class App {
         metodos.media();
         metodos.antecessorNum();
         metodos.salario();
+        metodos.boaNoite();
 
     }
 }

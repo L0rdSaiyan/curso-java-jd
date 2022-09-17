@@ -12,6 +12,7 @@ public class Metodos {
     public int nota1, media, mediafinal;
     public int num;
     public double horas,salario;
+    public String nome;
 
     public void olaMundo() {
 
@@ -44,7 +45,7 @@ public class Metodos {
 
         for (int i = 4; i > 0; i--) {
 
-            System.out.println("Informe o " + i + " numero:");
+            System.out.println("Informe a " + i + "° nota:");
             media = leitor.nextInt();
 
             arraylist.add(media);
@@ -77,6 +78,15 @@ public class Metodos {
 
         System.out.println("O salário será de: "+(salario*horas));
 
+    }
+
+    public void boaNoite(){
+
+        leitor.nextLine();
+        System.out.println("Informe o seu nome: ");
+        nome=leitor.nextLine();
+        System.out.println("Boa noite, "+nome+"!");
+        
     }
 
 
