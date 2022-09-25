@@ -89,5 +89,30 @@ public class Metodos {
         
     }
 
+    int numero1,numero2;
+
+    public void maiorNum(){
+
+        System.out.println("Informe o primeiro numero: ");
+        numero1=leitor.nextInt();
+        System.out.println("Informe o segundo número: ");
+        numero2=leitor.nextInt();
+
+        if(numero1>numero2){
+
+            System.out.println("O numero"+numero1+"é maior!");
+
+        }else if(numero2>numero1){
+
+            System.out.println("O numero "+numero2+" é maior!");
+
+        }else{
+
+            System.out.println("Os números são iguais!");
+
+        }
+
+    }
+
 
 }
